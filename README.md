@@ -225,7 +225,7 @@ Demo sait
 						</div>
 						<div class="col-12">
 							<ul class="actions">
-								<li><input type="submit" value="Отправить сообщение" /></li>
+								<li><a href="#header" class="btn btn-dark">Отправить сообщение</a></li>
 							</ul>
 						</div>
 					</div>
