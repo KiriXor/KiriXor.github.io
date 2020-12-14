@@ -1,38 +1,241 @@
 # KiriXor.github.io
 Demo sait
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<!DOCTYPE HTML>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title> Curriculum vitae </title>
- </head>
- <body bgcolor="silver" text="black">
-   <h1 align= "center">Хорунжий Кирилл Владимирович</h1>
-   <marquee behavior="alternate" bgcolor="green" direction="right" style="color: white; font-size: 20px; font-weight: bolder; line-height: 150%; text-shadow: #000000 0px 1px 1px;"onmousedown="this.stop()" onmouseup="this.start()">Приветствую на своём сайте!</marquee>
-   <p><img src="https://img.gazeta.ru/files3/740/11610740/cat-pic4_zoom-1500x1500-1111.jpg" 
-   width="300" height="160" align= "right" vspace="5" nspace="10" alt="Вы не поверите, но это кот"></p>
-   <hr align="left" width="500" size="2" color="yellow" />
-   <p><b> Личная информация: </b></p>   
-   <p><b> Дата рождения: </b> 28.10.2001</br>
-   <b> Место рождения: </b> г.Волгоград</br>
-   <b> Телефон: </b> 8-988-988-85-62</br>
-   <b> Почта: </b> az.on.90@mail.ru</br>
-   <hr align="left" width="500" size="2" color="white" />
-   <p><b> Учился: </b></p>   
-   09.2009 поступил в школу №86 в гюВолгограде, ТЗР.  </br>
-   06.2019 окончил школу.  </br>
-   С 09.2019 учусь в институте архитектуры и строительства ВолгГТУ </p>
-   <hr align="left" width="500" size="2" color="blue" />
-   <p><b> Владею знаниями программирования на языках: </b></p>
-   С++ </br>
-   Python </br>
-   Visual basic </br>
-   Pascal abc </p>
-   <hr align="left" width="500" size="2" color="red" />
-   <p><b> Достижения: </b></p>
-   <p> Я - человек! </p>
-   <hr align="left" width="85" size="2" color="green" />
-  </table>
- </body>
+	<head>
+		<title>Пиццерия</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	</head>
+	<body class="is-preload">
+	 <!--Крошки - Укажите местоположение текущей страницы в навигационной иерархии, 
+	 которая автоматически добавляет разделители через CSS-->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#banner">Banner</a></li>
+    <li class="breadcrumb-item" ><a href="#opis">Пиццы</a></li>
+	<li class="breadcrumb-item" ><a href="#dopol">Дополнительно</a></li>
+    <li class="breadcrumb-item" ><a href="#otziv">Отзыв</a></li>
+  </ol>
+</nav>
+<!--  -->
+			<section id="header" class="dark">
+				<header>
+					<h1 class="btn btn-dark">Пиццерия </h1>
+					<footer>
+					<p class="btn btn-dark">Сделал Хорунжий К.В.</a></p>
+					</footer>
+				</header>
+				<footer>
+					<a href="#banner" class="btn btn-primary">Перейти на вторую страничку</a>
+				</footer>
+			</section>
+
+			<article class="container box style2">
+			<section id="banner" class="main">
+				<header>
+					<div class="container">
+					<!-- Карусель - Компонент слайд-шоу для цикличного повторения элементов - 
+					карусель изображения или текстовые слайды.-->
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img width="550" height="315" class="d-block w-100" src="https://dodopizza-a.akamaihd.net/static/Img/Banners/g_1601252605_5f726581400f4bd8949004922fec8443.jpeg" alt="Первый слайд">
+    </div>
+    <div class="carousel-item">
+      <img width="550" height="315" class="d-block w-100" src="https://dodopizza-a.akamaihd.net/static/Img/Banners/g_1601886207_90aae4917f3f4fb7bdae39253913974e.jpeg" alt="Второй слайд">
+    </div>
+    <div class="carousel-item">
+      <img width="550" height="315" class="d-block w-100" src="https://dodopizza-a.akamaihd.net/static/Img/Banners/g_1602501025_5152b68d24c345c0b3c8e20808b4fd85.jpeg" alt="Третий слайд">
+    </div>
+	<div class="carousel-item">
+      <img width="550" height="315" class="d-block w-100" src="https://dodopizza-a.akamaihd.net/static/Img/Banners/g_1601626377_0dd3444bdfa2444da5ad20930d8a8dea.jpeg" alt="Четвёртый слайд">
+    </div>
+	<div class="carousel-item">
+      <img width="550" height="315"  class="d-block w-100" src="..." alt="Пятый слайд">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+					</div>
+						</header>
+			</section>
+						</article>
+	
+		<!-- Карточки - Карточки Bootstrap предоставляют собой гибкий и расширяемый 
+		контейнер контента с несколькими вариантами и опциями. (Группа карточек)-->
+			<article id="opis" class="container box style2">
+				<header>
+					<div class="container">
+					 <center><h3>Описание новых и часто покупаемых пицц</h3></center>
+			        </div>
+				
+             <div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic01.jpg" class="card-img-top" alt="Цезарь">
+      <div class="card-body">
+        <h5 class="card-title">Цезарь</h5>
+        <p class="card-text">Цезарь — Свежие листья салата айсберг в конверте, цыплёнок, томаты черри, сыры чеддер и пармезан, моцарелла, сливочный соус, соус цезарь.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>
+	 </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic02.jpg" class="card-img-top" alt="Песто">
+      <div class="card-body">
+        <h5 class="card-title">Песто</h5>
+        <p class="card-text">Песто — Соус песто, сливочный соус, цыплёнок, кубики брынзы, томаты черри, моцарелла.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>     
+	 </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic03.jpg" class="card-img-top" alt="Пепперони фреш">
+      <div class="card-body">
+        <h5 class="card-title">Пепперони фреш</h5>
+        <p class="card-text">Пепперони фреш — Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>   
+     </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic04.jpg" class="card-img-top" alt="Сырная">
+      <div class="card-body">
+        <h5 class="card-title">Сырная</h5>
+        <p class="card-text">Сырная — Увеличенная порция моцареллы, томатный соус.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>  
+     </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic05.jpg" class="card-img-top" alt="Ветчина и сыр">
+      <div class="card-body">
+        <h5 class="card-title">Ветчина и сыр</h5>
+        <p class="card-text">Ветчина и сыз - Ветчина, моцарелла, соус альфредо.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Pic/pic06.jpg" class="card-img-top" alt="Ветчина и грибы">
+      <div class="card-body">
+        <h5 class="card-title">Ветчина и грибы</h5>
+        <p class="card-text">Ветчина и грибы — Ветчина, шампиньоны, увеличенная порция моцареллы, томатный соус.</p>
+        <p class="card-text"><small class="text-muted">За рекламу не платят - цены не будет.</small></p>   
+     </div>
+    </div>
+  </div>
+</div>
+</header>
+</article>
+</header>	
+</article>			
+		<!--Выпадающие элементы - Переключайте контекстные оверлеи для отображения
+		списков ссылок и многого другого с помощью модуля выпадающих меню Bootstrap. -->
+			<article id="dopol" class="container box style2">
+				<div class="inner">
+					<header>
+						<center><h2>Так же можно купить:</h2></center>
+					</header>
+<div class="btn-group">
+  <button type="button" class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Закуски
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Ланчбокс с крыльями барбекю</a>
+    <a class="dropdown-item" href="#">Блинчики с ветчиной и сыром</a>
+    <a class="dropdown-item" href="#">Картофель из печи</a>
+    <div class="dropdown-divider"></div>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Десерты
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Шоколадный молочный коктейль</a>
+    <a class="dropdown-item" href="#">Мороженое 6 мини-эскимо</a>
+    <a class="dropdown-item" href="#">Рулетики с яблоками</a>
+    <div class="dropdown-divider"></div>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-success"" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Напитки
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Coca-cola</a>
+    <a class="dropdown-item" href="#">Sprite</a>
+    <a class="dropdown-item" href="#">Fanta</a>
+    <div class="dropdown-divider"></div>
+  </div>
+ </div>
+			<!--Формы - Примеры и рекомендации по использованию стилей управления формой,
+			параметров макета и пользовательских компонентов для создания широкого спектра форм. -->
+			<article id="otziv" class="container box style3">
+				<header>
+					<center><h2>Отзыв</h2></center>
+					<p>Здесь вы можете оставить отзыв о сайте.</p>
+				</header>
+				<form method="post" action="#">
+					<div class="row gtr-50">
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Имя" /></div>
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="col-12">
+							<textarea name="message" placeholder="Сообщение"></textarea>
+						</div>
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Отправить сообщение" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</article>
+		
+			<section id="footer">
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; Все права защищены.</li>
+					</ul>
+					<ul class="menu">
+						<li> О нас</li>
+					</ul>
+					<ul class="menu">
+						<li> Работа</li>
+					</ul>						
+					<ul class="menu">
+						<li> Партнерам</li>
+					</ul>
+				</div>
+			</section>
+
+	</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
- 
